@@ -52,14 +52,6 @@ bot.on('text', async (msg) => {
                 }
             })
         })
-        // var upload = await videoPageUpload(namafile, caption)
-        // if (upload.status == "success") {
-        //     console.log('Success')
-        //     return bot.sendMessage(msg.chat.id, `${upload.message}`);
-        // } else {
-        //     await bot.sendMessage(msg.chat.id, upload.message);
-        //     return bot.sendMessage(msg.chat.id, `Video Gagal di publish!`);
-        // }
     }
 });
 
