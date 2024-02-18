@@ -2,10 +2,10 @@
   "name": "tt-fb",
   "version": "1.0.0",
   "description": "Auto reupload TikTok video to Facebook Reels via Telegram.",
-  "main": "index.js",
+  "main": "telebot.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node telebot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fadhil",
