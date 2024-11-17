@@ -31,7 +31,7 @@ bot.on('text', async (msg) => {
         }).then(async ({ data, headers }) => {
         if (!fs.existsSync('download')) fs.mkdirSync('download')
             const totalLength = headers['content-length']
-            const progressBar = new ProgressBar(`[${chalk.hex('#ffff1c')("Proses Download")}] [${chalk.hex('#6be585')(':bar')}] :percent downloaded in :elapseds`, {
+            const progressBar = new ProgressBar(`[${chalk.hex('#ffff1c')("Proses Download")}] [${chalk.hex('#6be585')(':bar')}] :percent terunduh!`, {
                 width: 40,
                 complete: '<',
                 incomplete: '•',
